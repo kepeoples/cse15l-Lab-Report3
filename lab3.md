@@ -54,8 +54,6 @@ Now, the corresponding test case that dooesn't induce failure:
     }
 ```
 
-**Following are the ScreenShots after running the tests**
-
 ***Also, following is the detailed description of the bug:***  
 The original code had a flaw where it tries to assign the value of each element to its corresponding element at the opposite end of the array, thereby reversing the array. 
 This effectively copies the final half of the array to the first half, resulting in inaccurate values for the first half of the array.
